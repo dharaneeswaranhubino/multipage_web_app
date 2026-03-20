@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
