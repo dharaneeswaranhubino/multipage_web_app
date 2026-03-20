@@ -9,7 +9,10 @@ interface User {
   email: string;
   password: string;
 }
-
+interface LoginPayload {
+  email: string;
+  password: string;
+}
 interface AuthState {
   user: User | null;
   error: string | null;
@@ -53,7 +56,7 @@ const authSlice = createSlice({
       state.signupSuccess=true;
     },
 
-    login: (state, action: PayloadAction<User>) => {
+    login: (state, action: PayloadAction<LoginPayload>) => {
       const users =
         JSON.parse(localStorage.getItem("registeredUsers") || "[]");
 
