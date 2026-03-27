@@ -1,2 +1,2 @@
-netlify web url:
+Website url:
 https://multipage-web-app.vercel.app/
