@@ -1,2 +1,2 @@
 netlify web url:
-https://multipage-ecom-web-app.netlify.app/
+https://multipage-web-app.vercel.app/
